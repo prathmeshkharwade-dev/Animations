@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+
+.loader{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    z-index: 200;
+}
+
+.loaderCount h1 {
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+
+.background {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+
+.overlayText {
+    height: 100vh;
+    width: 100%;
+    padding-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading  {
+    overflow: hidden;
+}
+
+.heading h1 {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.subheading {
+    overflow: hidden;
+}
+
+.subheading h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size:  2rem;
+    text-transform: capitalize;
+    font-weight: 200;
+}
