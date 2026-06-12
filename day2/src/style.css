@@ -24,7 +24,7 @@ body{
   width: 100%;
 }
 
-/* Keep image behind content and make layout deterministic */
+
 .imageDiv{
   position: absolute;
   inset: 0;
