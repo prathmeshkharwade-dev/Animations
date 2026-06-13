@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+#app{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  display: inline-block;
+}
+
+#app .title h1{
+  font-size: 9rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  background-color:olivedrab;
+}
