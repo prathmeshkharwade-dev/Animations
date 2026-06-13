@@ -24,16 +24,43 @@ body{
 span{
   display: inline-block;
 }
-
+/* 
 #app .title h1{
   font-size: 9rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 300;
   text-transform: uppercase;
+} */
+
+.imageGallary{
+  height: 30%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.box{
+.imageShow{
+  height: 70%;
+  width: 60%;
+  background-color: crimson;
+}
+
+.imageShow img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.imageGallary img {
+  height:60%;
+  width: 30%;
+  object-fit: cover;
+}
+
+
+/* .box{
   height: 200px;
   width: 200px;
   background-color:olivedrab;
-}
+} */
