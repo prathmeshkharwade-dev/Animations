@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
-import { useRef } from 'react'
+import { Component, useRef } from 'react'
+import AnimateOnX from './components/AnimateOnX';
 
 const App = () => {
   const boxRef = useRef(null);
@@ -17,10 +18,12 @@ const App = () => {
 
   return (
     <div ref={containerRef}>
-      <div ref={boxRef} className="box"></div>
-      <button onClick ={(contextSafe (()=>{
-        gsap.to()
-      })) }>Click me</button>
+    <div ref={boxRef} className="box"></div>
+    
+    <AnimateOnX>
+       <div className="box"></div>
+    </AnimateOnX>
+
     </div>
   )
 }
